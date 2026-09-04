@@ -1391,3 +1391,45 @@ body {
     transform: translateY(-7px);
     box-shadow: 0 14px 30px rgba(23, 63, 99, 0.16);
 }
+
+/* Disaster card hover effect */
+.disaster-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.disaster-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(23, 63, 99, 0.18);
+}
+
+/* Different colour when hovering each card */
+.disaster-card:nth-child(1):hover {
+    background: #eaf7f4;
+    border-color: #2f7564;
+}
+
+.disaster-card:nth-child(2):hover {
+    background: #eef5fb;
+    border-color: #2879a7;
+}
+
+.disaster-card:nth-child(3):hover {
+    background: #fff5e8;
+    border-color: #e39a2d;
+}
+
+.disaster-card:nth-child(4):hover {
+    background: #fff0ee;
+    border-color: #c65b52;
+}
+
+.disaster-card:nth-child(5):hover {
+    background: #f3effa;
+    border-color: #79549b;
+}
+
+.disaster-card:nth-child(6):hover {
+    background: #eef6f2;
+    border-color: #4c8b6f;
+}
